@@ -1,0 +1,29 @@
+master e10
+slave e20 e30 e40 e29 e17 e25 e33 e26 e12 e13 e14 e15 e31 e32 e35 e11 e16 e18 e19 e21 e22 e23 e24 e27 e28 e34 e36 e37 e38 e39 e41 e42 e43 e44
+coor t22
+
+.testtime 20
+.servertimeout 180
+.newMonitorFile 1
+.cpuMeasIntv 0.5
+.monitorSampleTime 5
+.usecache 1
+.usemysql 1
+.writefile 0
+.sampletime 1
+.hitratio 0.998
+.masterport 9999
+.skipservicecheck 0
+.skipwarmup 0
+.cleanlog 1
+.cleanres 1
+.manualinvoke 1
+.manualsetrun 0
+.copymypy 1
+.rqps 1
+.replicas 2
+.discoport 8989
+.workthreadt 12
+.workthreade 2
+
+# e20 e30 e40 e29 e17 e25 e33 e26 e12 e13 e14 e15 e31 e32 e35 e11 e16 e18 e19 e21 e22 e23 e24 e27 e28 e34 e36 e37 e38 e39 e41 e42 e43 e44:34

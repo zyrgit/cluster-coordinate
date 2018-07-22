@@ -1,0 +1,27 @@
+master t30
+slave t31 t32 t33 t34 t35 t36
+coor t22
+
+.testtime 20
+.servertimeout 180
+.newMonitorFile 1
+.cpuMeasIntv 0.5
+.monitorSampleTime 5
+.usecache 1
+.usemysql 1
+.writefile 0
+.sampletime 1
+.hitratio 0.998
+.masterport 9999
+.skipservicecheck 0
+.skipwarmup 0
+.cleanlog 1
+.cleanres 1
+.manualinvoke 1
+.manualsetrun 0
+.copymypy 1
+.rqps 1
+.replicas 2
+.discoport 8989
+.workthreadt 12
+.workthreade 2
